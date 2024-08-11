@@ -3,25 +3,45 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
    <link rel="shortcut icon" href="building.ico" type="image/x-icon">
+   <link rel="stylesheet" href="style.css">
     <title>Tela de login</title>
  </head>
  <body>
-<header>
-        <h1>Fenix Prédios</h1>
-    </header>
-    
-    <br>
-    <div class="tela-login">
+     <header>      
+    <h1>Fenix Prédios</h1>
+            </header>
+    <form>
+  <h3>Entrar em contato</h3>
+  <input id="email" type="text" name="email" placeholder="seu e-mail..."/>
+  <input id="password" type="password" name="senha" placeholder="Sua senha..."/>
+  <input type="submit" name="acao"  value="enviar"/>
+    </form>
+<script>
+    var email = document.getElementById('email');
+    var password = document.getElementById('password');
 
-     <h1>Login</h1>
-     <input type="text" placeholder="Nome,Email,CPF,Numero">
-     <br><br>
-     <input type="password" placeholder="Senha"> 
-     <br><br>
-     <a href="#"><button>Enviar</button></a>
-    </div>
-    
+     email.addEventListener('focus',()=>{
+      email.style.borderColor = "#483D8B";  
+
+    });
+    email.addEventListener('blur',()=>{
+      email.style.borderColor = "#ccc";
+   
+    });
+    password.addEventListener('focus',()=>{
+      password.style.borderColor = "#483D8B";
+   }); 
+
+    password.addEventListener('blur',()=>{
+      password.style.borderColor = "#ccc";
+   
+    });
+
+
+
+</script>
+
+      
  </body>
  </html>
