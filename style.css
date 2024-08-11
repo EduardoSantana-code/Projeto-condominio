@@ -9,29 +9,31 @@
 }
 
 body {
-     background-color:#5f7c8a ;
+    background-image: linear-gradient(to left, #ff0000,#edff00 );
 
 
 
 }
 
 form{
-   background-color: white;
+   background-color: #ffffff;
    max-width:500px;
    width:70%;
    padding:20px;
    position: absolute;
    left: 50%;
    top: 50%;
-   transform:translate(-50%,-50%);
+   transform:translate(-50%,-31%);
 
 
 }
-form h3{
+h2{
      text-align: center;
-     color:#5f7c8a;
+     color:#0b3a52;
      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+     font-weight:bolder;
+     transform:translate(0%,8%);
+     font-size: 2em;
 
 }
 
@@ -90,6 +92,18 @@ header h1 {
     }
 
     header {
-  background-color: #0b3a52;
+ background-color: #cbce1b;
+  min-height: 150px;
+  text-align: center;
+  padding-top: 40px;
+
+    }
+
+    div{
+       font-family: Arial, Helvetica, sans-serif;
+       font-weight: bold;
+       text-align: center;
+       padding-top: 40px;
+    color: #0b3a52;
 
     }
