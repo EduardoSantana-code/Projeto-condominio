@@ -45,7 +45,7 @@ form{
 h2{
      text-align: center;
      color:#0b3a52;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-family: var(--font-destaque);
      font-weight:bolder;
      transform:translate(0%,8%);
      font-size: 2em;
