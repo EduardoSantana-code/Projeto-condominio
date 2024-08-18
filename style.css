@@ -110,7 +110,7 @@ header h1 {
     }
 
     header {
- background-image: linear-gradient(to left, #ffffff,#14161e75 );
+ background-image: linear-gradient(to left, #2358a9,#336093 );
   min-height: 150px;
   text-align: center;
   padding-top: 40px;
@@ -133,4 +133,11 @@ header h1 {
         top: 4%;
         transform: translateX(323%);
      
+     }
+
+     a {
+          font-family: var(--font-destaque);
+          text-decoration: none;
+
+
      }
