@@ -25,7 +25,10 @@
 
 body {
     background-image: linear-gradient(to left, #2358a9,#336093 );
-
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    margin-bottom: 30px;
 
 
 }
